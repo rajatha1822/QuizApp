@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_1"
+    tools:context="com.example.rajatha.a5minquiz.QuizMaster">
+
+    <Button
+        android:id="@+id/AddQuestion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:background="@android:color/background_dark"
+        android:text="Add Question"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ViewQuestion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/background_dark"
+        android:text="Questions"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:layout_below="@+id/AddQuestion"
+        android:layout_alignStart="@+id/AddQuestion" />
+
+    <Button
+        android:id="@+id/ViewUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/background_dark"
+        android:text="User Details"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/ViewQuestion"
+        android:layout_alignStart="@+id/ViewQuestion" />
+
+
+</RelativeLayout>

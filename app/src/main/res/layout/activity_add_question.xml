@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_1"
+    tools:context="com.example.rajatha.a5minquiz.AddQuestion">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:text="Question"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/Question"
+        android:hint="Type your question"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Question"
+        android:background="@android:color/transparent"
+        android:text="Answer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:hint="Enter answer"
+        android:id="@+id/Answer"
+        android:layout_below="@+id/ans"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:text="Timer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@+id/Answer"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:hint="Enter the Timer Value"
+        android:id="@+id/TimerValue"
+        android:layout_below="@+id/Timer"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Opt11"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TimerValue"
+        android:background="@android:color/transparent"
+        android:text="Opt1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:hint="Enter Opt1"
+        android:id="@+id/Opt1"
+        android:layout_below="@+id/Opt11"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Opt21"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Opt1"
+        android:background="@android:color/transparent"
+        android:text="Opt2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:hint="Enter Opt2"
+        android:id="@+id/Opt2"
+        android:layout_below="@+id/Opt21"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Opt31"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Opt2"
+        android:background="@android:color/transparent"
+        android:text="Opt3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:hint="Enter Opt3"
+        android:id="@+id/Opt3"
+        android:layout_below="@+id/Opt31"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="13dp"
+        android:background="@android:color/background_dark"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/Add"
+        android:layout_alignBottom="@+id/Add"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:background="@android:color/background_dark"
+        android:text="Done"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
