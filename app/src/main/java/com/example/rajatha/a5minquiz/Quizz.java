@@ -37,9 +37,7 @@ public class Quizz extends AppCompatActivity {
     private MyCountDownTimer myCountDownTimer;
     private int Round=1,Score=0;
     private String UserName,Password;
-
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
